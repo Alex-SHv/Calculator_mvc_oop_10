@@ -1,5 +1,7 @@
+from tkinter import messagebox
+
 class CalculatorView:
-    def init(self, root, controller):
+    def __init__(self, root, controller):
         self.root = root
         self.controller = controller
 
